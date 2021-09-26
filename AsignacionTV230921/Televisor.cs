@@ -34,7 +34,11 @@ namespace AsignacionTV230921
             _tvColor = tvColor;
         }
 
-
+        public string getLibroInfo()
+        {
+            return _tvId + " " + _tvModelo + " " + _tvMarca + " " + _tvTamaño + " " + _tvResolucion
+                + " " + _tvAño + " " + _tvColor;
+        }
 
 
 
